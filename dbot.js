@@ -1,5 +1,5 @@
 //genesis dao bot
-const Bot = require('../node_modules/lib')
+const Bot = require('./keybase-bot/lib')
 const Web3 = require('web3');
 const abi = require('./data/abi')
 
