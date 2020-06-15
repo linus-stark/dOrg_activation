@@ -1,0 +1,66 @@
+# Configuration for documentation.js
+# Specifies the table of contents order and child docs
+# CONFIG: https://github.com/documentationjs/documentation/blob/master/docs/CONFIG.md
+toc:
+  - Bot
+  - name: Bot Types
+    description: |
+      A collection of types used by the bot.
+    children:
+      - InitOptions
+      - BotInfo
+  - Chat
+  - name: Chat Types
+    description: |
+      A collection of types used by the Chat module.
+    children:
+      - ChatChannel
+      - ChatMessage
+      - Thread
+      - MsgSummary
+      - MsgContent
+      - ConvSummary
+      - SendRes
+      - UICoinFlipStatus
+      - UnfurlSettings
+      - UserBotCommandOutput
+      - ChatAttachOptions
+      - ChatDownloadOptions
+      - ChatReactOptions
+      - ChatDeleteOptions
+      - Advertisement
+      - AdvertisementsLookup
+      - OnMessage
+      - OnError
+      - ListenOptions
+  - KVStore
+  - name: KVStore Types
+    description: |
+      A collection of types used by the KVStore module.
+    children:
+      - KVListNamespaceResult
+      - KVListEntryResult
+      - KVGetResult
+      - KVPutResult
+      - KVDeleteEntryResult
+  - Team
+  - name: Team Types
+    description: |
+      A collection of types used by the Team module.
+    children:
+      - AddMembersParam
+      - RemoveMemberParam
+      - ListTeamMembershipParam
+      - TeamAddMemberResult
+      - TeamDetails
+  - Wallet
+  - name: Wallet Types
+    description: |
+      A collection of types used by the Wallet module.
+    children:
+      - AccountID
+      - TransactionID
+      - OwnAccountCLILocal
+      - PaymentCLILocal
+      - BatchPaymentArg
+      - BatchResultLocal

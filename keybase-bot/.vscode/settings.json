@@ -1,0 +1,8 @@
+// coyne: I dislike having lib/show up in here; keep accidentally editing a .js file
+{
+  "files.exclude": {
+    "node_modules/": true,
+    "lib/": true
+  },
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    //"incremental": true,
+    "rootDir": "src/",
+    "outDir": "lib",
+    "declaration": true,
+    "lib": ["es6"]
+  },
+  "include": ["src/*"],
+  "exclude": ["__tests__", "demos"]
+}
