@@ -1,4 +1,3 @@
-//genesis dao bot
 const Bot = require('./keybase-bot/lib')
 const Web3 = require('web3');
 const abi = require('./data/abi')
@@ -7,7 +6,7 @@ const endpoint = 'wss://mainnet.infura.io/ws/v3/e4ee2477db6a43d1ba3e090ca1b972ff
 const contractAddress = '0x917a2C4421fdAD00632d89b3E550230A3a0B0A31';
 function main() {
   const bot = new Bot()
-  const username = 'linus_bot'
+  const username = 'lil_bot'
     const paperkey = '' 
   bot
     .init(username, paperkey, {verbose: false})
